@@ -1,0 +1,14 @@
+The following are the project files for this extension:
+
+1. `package.json`: This file contains information about the extension, such as its name and version number.
+2. `README.md`: This file contains documentation about how to use and configure the extension.
+3. `tsconfig.json`: This file is used by the TypeScript compiler to generate JavaScript files from the TypeScript source code.
+4. `tslint.json`: This file contains the configuration for the tslint code analysis tool.
+5. `typings/main/ambient/node/index.d.ts`: This file contains type definitions for Node.js.
+6. `src/api/NotificationApi.ts`: This file defines the NotificationApi class, which provides a wrapper for the Notifications REST API.
+7. `src/client/services/notificationService.ts`: This file defines the NotificationService class, which is responsible for sending notifications and managing subscriptions.
+8. `src/components/Notification.vue`: This file contains the Vue component that displays the notification panel.
+9. `src/store/notificationsStore.ts`: This file defines the NotificationsStore class, which is used to manage the list of displayed notifications.
+10. `src/utils/notificationUtils.ts`: This file contains various utility functions for working with notifications.
+
+The project also includes a number of other files and directories, such as the `node_modules` directory containing dependencies, the `dist` directory used during the build process, and the `tests` directory containing unit tests for the extension.
